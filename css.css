@@ -1,0 +1,24 @@
+body {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+}
+
+.score {
+    font-size: 42px;
+}
+
+.hands {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    margin-top: 40px;
+}
+
+.rock, .paper, .scissors {
+    font-size: 38px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
